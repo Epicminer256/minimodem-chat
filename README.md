@@ -1,4 +1,4 @@
-# minimodem-script
+# minimodem-chat
 Dependencies
 
 1.) bash
