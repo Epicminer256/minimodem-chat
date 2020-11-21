@@ -3,7 +3,7 @@ echo Revice = rx
 echo Transmit = tx
 read direction
 
-echo pick channel from 1 to 8
+echo pick channel from 1 to 6
 read chchannel
 let channel1=$chchannel*1000
 let channel2=$chchannel*1000+300
