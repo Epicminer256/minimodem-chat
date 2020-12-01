@@ -15,4 +15,4 @@ clear
 echo ---------------------
 echo      $direction      
 echo ---------------------
-minimodem --quiet --mark $channel1 --space $channel2 --stopbits 2.5 --ascii --$direction $ratespeed
+minimodem --quiet --sync-byte=0xAB --mark $channel1 --space $channel2 --stopbits 2.5 --ascii --$direction $ratespeed
