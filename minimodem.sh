@@ -3,10 +3,10 @@ echo Revice = rx
 echo Transmit = tx
 read direction
 
-echo pick channel from 1 to 8
+echo pick channel from 1 to 5
 read chchannel
-let channel1=$chchannel*200+400
-let channel2=$chchannel*200+400+100
+let channel1=$chchannel*700-200
+let channel2=$chchannel*700-200+400
 
 echo Rate of speed
 echo recommended is 140
